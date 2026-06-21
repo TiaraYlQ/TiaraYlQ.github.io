@@ -29,6 +29,7 @@ export const config = {
    inputPosition: "bottom",                      // 评论框位置：top或bottom
    theme: "preferred_color_scheme",              // 主题，随系统暗色/亮色切换
    lang: "zh-CN",                                // 语言
-} as const;
+ },
+} as const; 
 
 export default config;
