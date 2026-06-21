@@ -19,9 +19,13 @@ const { posts, page, pages } = Astro.props;
   mount("data-acc-time");
 </script>
 <Layout title={config.head.title}>
-  <div class="w-full h-40 bg-black text-white font-bold text-3xl flex items-center justify-center">
-    {config.head.brand}
-  </div>
+  <div 
+  class="w-full h-60 text-white font-bold text-3xl flex items-center justify-center bg-cover bg-center relative"
+  style="background-image: url('/back1.jpg');"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+  <span class="relative z-10">{config.head.brand}</span>
+</div>
   <main>
     <div class="content">
       {
