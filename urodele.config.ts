@@ -6,8 +6,8 @@ export const config = {
     logInAuthUrl: "",
   },
   head: {
-    title: "Urodele",
-    brand: "Urodele",
+    title: "NorthStar Y Lunic",
+    brand: "NorthStarY",
     description: "A self-owned full-static blog system",
   },
   footer: {
